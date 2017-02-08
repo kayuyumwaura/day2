@@ -1,9 +1,12 @@
  			
 #this code finds the min and max values using for loop
- def find_minmax(n):
- 	max = min = a[1]  #assumes the first item in the array is min and max
+def find_minmax(n):
+max = min = a[1]
+
+
+for (i = 2 to n):  #assumes the first item in the array is min and max
  	#then it checks the second value in array and loops through to n
- 	for (i = 2 to n): 
+
  		#if value in next array is geater than the current, max now becomes the value in next array
  		if  (a[1]>max):
  			then max = a[1]
