@@ -14,4 +14,4 @@ def word_count(word):
 		word_count[word] = 1
 	#sort dict based on the frequency of occurence of a word. sort by value	
 	for key, value in sorted(word_count.items(), key = operator.itemgeter(1)):
-		print ('key,value')
+		print ('key,:value')
