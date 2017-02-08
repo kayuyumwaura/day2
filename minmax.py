@@ -10,6 +10,6 @@
  			#does the same for min and loops through the entire array 
  		else if (a[1]<min):
  			then min = a[1]
- 			
+ 			print ('min,max')
 
  	
