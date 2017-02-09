@@ -26,9 +26,9 @@ from dropbox.files import (
 )
 
 # Get token from environment variable.
-oauth2_token = os.environ.get('DROPBOX_TOKEN')
+oauth2_token = os.environ.get('8tPq2YEC70AAAAAAAAAADcyrP3zdn9SUfDriZVGTHc7KPLzEwYN7eVNe5aO7jgF8')
 if oauth2_token is None:
-    print('Set DROPBOX_TOKEN environment variable to a valid token.',
+    print('Set 8tPq2YEC70AAAAAAAAAADcyrP3zdn9SUfDriZVGTHc7KPLzEwYN7eVNe5aO7jgF8 environment variable to a valid token.',
           file=sys.stderr)
     sys.exit(1)
 
